@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.1.1"
+djangorestframework = "==3.13.1"
+psycopg-binary = "==3.1.1"
+django-environ = "==0.9.0"
+psycopg2-binary = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+ipython = "*"
+django-extensions = "*"
+werkzeug = "*"
+pytest-cov = "*"
+factory-boy = "*"
+faker = "*"
+pytest-django = "==4.5.2"
+
+[requires]
+python_version = "3.10"
